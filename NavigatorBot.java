@@ -9,8 +9,8 @@ public class NavigatorBot {
         System.out.println("Start Position: " + grid.FindStartPosition());
         System.out.println("Finish Position: " + grid.FindFinishPosition());
 
-        MoveResult m = grid.Move('U',10);
-        System.out.println(m);
+        MoveResult m = grid.Move('U',1);
+        grid.Look('U',50);
     }
 
 
